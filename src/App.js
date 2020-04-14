@@ -35,7 +35,6 @@ export default function App() {
           return likedRepository;
         } else return repository;
       });
-      console.log(response.data)
       setRepositories(updatedRepositories);
     } catch (error) {console.log(error)}
   }
